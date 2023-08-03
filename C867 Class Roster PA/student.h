@@ -10,25 +10,25 @@ enum DegreeProgram {
 class Student {
 
 public:
-	void setStudentId(string studentId);
+	void setStudentId(std::string studentId);
 
-	void setFirstName(string firstName);
+	void setFirstName(std::string firstName);
 
-	void setLastName(string lastName);
+	void setLastName(std::string lastName);
 
-	void setEmail(string emailAddress);
+	void setEmail(std::string emailAddress);
 
 	void setAge(int age);
 
 	int	 numOfDaysForCourse[15];
 
-	void setDegreeProgram(string degreeProgram);
+	void setDegreeProgram(std::string degreeProgram);
 };
 
 
 
 
-const string studentData[] =
+const std::string studentData[] =
 {
 "A1,John,Smith,John1989@gm ail.com,20,30,35,40,SECURITY",
 "A2,Suzan,Erickson,Erickson_1990@gmailcom,19,50,30,40,NETWORK",

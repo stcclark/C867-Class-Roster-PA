@@ -1,21 +1,21 @@
 #include "student.h"
 #include <iostream>
-using namespace std;
+std::
 
 class Student {
 
 public:
-	void setStudentId(string studentId);
+	void setStudentId(std::string studentId);
 
-	void setFirstName(string firstName);
+	void setFirstName(std::string firstName);
 
-	void setLastName(string lastName);
+	void setLastName(std::string lastName);
 
-	void setEmail(string emailAddress);
+	void setEmail(std::string emailAddress);
 
 	void setAge(int age); 
 
 	int	 numOfDaysForCourse[15];
 
-	void setDegreeProgram(string degreeProgram);
+	void setDegreeProgram(std::string degreeProgram);
 };
