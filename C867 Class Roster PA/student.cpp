@@ -13,7 +13,7 @@ public:
 
 	void setEmail(string emailAddress);
 
-	void setAge(int age);
+	void setAge(int age); 
 
 	int	 numOfDaysForCourse[15];
 
